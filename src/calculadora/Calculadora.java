@@ -11,7 +11,7 @@ public class Calculadora {
         Scanner entrada = new Scanner (System.in);
         
         do{
-            System.out.println("Escolha qual operação quer fazer: (Adicao, Subitracao, Multiplicacao, Divisao): ");
+            System.out.println("Escolha qual operação quer fazer: (Adicao, Subtracao, Multiplicacao, Divisao): ");
         Operadores = entrada.nextLine();
         
         switch(Operadores){
@@ -23,8 +23,8 @@ public class Calculadora {
                 System.out.println(resultado);
                 break;
                 
-            case "Subitracao":
-                System.out.println("Escrevea os numeros que serão subitraidos: ");
+            case "Subtracao":
+                System.out.println("Escrevea os numeros que serão subtraidos: ");
                 numero1 = entrada.nextFloat();
                 numero2 = entrada.nextFloat();
                 resultado = numero1 - numero2;
